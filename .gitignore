@@ -1,55 +1,36 @@
-# Prerequisites
-*.d
-
-# Object files
-*.o
-*.ko
-*.obj
-*.elf
-
-# Linker output
-*.ilk
-*.map
-*.exp
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
-
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
-
-# Executables
+# 🔸 Executable files
 *.exe
 *.out
-*.app
-*.i*86
-*.x86_64
-*.hex
+*.elf
 
-# Debug files
+# 🔸 Object files
+*.o
+*.obj
+
+# 🔸 Static & Dynamic Libraries
+*.a
+*.so
+*.dll
+
+# 🔸 Debug files
+*.log
 *.dSYM/
-*.su
-*.idb
-*.pdb
 
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
+# 🔸 Build folders
+build/
+bin/
 
-# debug information files
-*.dwo
+# 🔸 Temporary files
+*.tmp
+*.swp
+
+# 🔸 OS generated files
+.DS_Store
+Thumbs.db
+
+# 🔸 Editor folders
+.vscode/
+.idea/
+
+# 🔸 Optional: Ignore data file if you don't want to track it
+# data/student.dat
